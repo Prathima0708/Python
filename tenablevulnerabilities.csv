@@ -1,0 +1,173 @@
+accountname,scanname,eventdate,scanner_name,policyname,plugin_id,plugin_name,severity,plugin_family
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,11219,Nessus SYN scanner,info,Port scanners
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,22964,Service Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,10180,Ping the remote host,info,Port scanners
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,12053,Host Fully Qualified Domain Name (FQDN) Resolution,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,19506,Nessus Scan Information,info,Settings
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,24260,HyperText Transfer Protocol (HTTP) Information,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,43111,HTTP Methods Allowed (per directory),info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,46215,Inconsistent Hostname and IP Address,info,Settings
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,10107,HTTP Server Type and Version,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,10287,Traceroute Information,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,11111,RPC Services Enumeration,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,45590,Common Platform Enumeration (CPE),info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,10267,SSH Server Type and Version Information,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,11936,OS Identification,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,54615,Device Type,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,70657,SSH Algorithms and Languages Supported,info,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,132634,Deprecated SSLv2 Connection Attempts,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,153588,SSH SHA-1 HMAC Algorithms Enabled,info,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,10881,SSH Protocol Versions Supported,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,10114,ICMP Timestamp Request Remote Date Disclosure,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,110723,Target Credential Status by Authentication Protocol - No Credentials Provided,info,Settings
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,117886,OS Security Patch Assessment Not Available,info,Settings
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,25220,TCP/IP Timestamps Supported,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,39520,Backported Security Patch Detection (SSH),info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,39446,Apache Tomcat Detection,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,91815,Web Application Sitemap,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,11032,Web Server Directory Enumeration,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,48204,Apache HTTP Server Version,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,10223,RPC portmapper Service Detection,info,RPC
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,10863,SSL Certificate Information,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,17975,Service Detection (GET request),info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,21643,SSL Cipher Suites Supported,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,49704,External URLs,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,50344,Missing or Permissive Content-Security-Policy frame-ancestors HTTP Response Header,info,CGI abuses
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,51192,SSL Certificate Cannot Be Trusted,medium,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,53335,RPC portmapper (TCP),info,RPC
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,56984,SSL / TLS Versions Supported,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,57041,SSL Perfect Forward Secrecy Cipher Suites Supported,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,70544,SSL Cipher Block Chaining Cipher Suites Supported,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,70658,SSH Server CBC Mode Ciphers Enabled,low,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,104743,TLS Version 1.0 Protocol Detection,medium,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,121010,TLS Version 1.1 Protocol Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,136318,TLS Version 1.2 Protocol Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,153953,SSH Weak Key Exchange Algorithms Enabled,low,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,156899,SSL/TLS Recommended Cipher Suites,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,11935,IPSEC Internet Key Exchange (IKE) Version 1 Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,34460,Unsupported Web Server Detection,high,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,45410,SSL Certificate 'commonName' Mismatch,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,50345,Missing or Permissive X-Frame-Options HTTP Response Header,info,CGI abuses
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,57582,SSL Self-Signed Certificate,medium,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,62695,IPSEC Internet Key Exchange (IKE) Version 2 Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,66334,Patch Report,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,91634,HyperText Transfer Protocol (HTTP) Redirect Information,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,153583,Apache < 2.4.49 Multiple Vulnerabilities,medium,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,153584,Apache < 2.4.49 Multiple Vulnerabilities,high,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,10662,Web mirroring,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,10719,MySQL Server Detection,info,Databases
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,11153,Service Detection (HELP Request),info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,15901,SSL Certificate Expiry,medium,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,33817,CGI Generic Tests Load Estimation (all tests),info,CGI abuses
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,39521,Backported Security Patch Detection (WWW),info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,50350,OS Identification Failed,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,50845,OpenSSL Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,58751,SSL/TLS Protocol Initialization Vector Implementation Information Disclosure Vulnerability (BEAST),medium,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,62349,Advanced Message Queuing Protocol Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,65914,MongoDB Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,71049,SSH Weak MAC Algorithms Enabled,low,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,81777,MongoDB Service Without Authentication Detection,medium,Databases
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,84502,HSTS Missing From HTTPS Server,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,85602,Web Application Cookies Not Marked Secure,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,87733,AMQP Cleartext Authentication,medium,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,90317,SSH Weak Algorithms Supported,medium,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,91822,Database Authentication Failure(s) for Provided Credentials,info,Settings
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,94761,SSL Root Certification Authority Certificate Information,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,100634,Redis Server Unprotected by Password Authentication,high,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,100635,Redis Server Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,117887,OS Security Patch Assessment Available,info,Settings
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,10092,FTP Server Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,10386,Web Server No 404 Error Code Check,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,10919,Open Port Re-check,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,26194,Web Server Transmits Cleartext Credentials,low,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,35297,SSL Service Requests Client Certificate,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,39466,CGI Generic XSS (quick test),medium,CGI abuses : XSS
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,39470,CGI Generic Tests Timeout,info,CGI abuses
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,40773,Web Application Potentially Sensitive CGI Parameter Detection,info,CGI abuses
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,40984,Browsable Web Directories,medium,CGI abuses
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,42149,FTP Service AUTH TLS Command Support,info,FTP
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,42424,CGI Generic SQL Injection (blind),high,CGI abuses
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,44136,CGI Generic Cookie Injection Scripting,medium,CGI abuses
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,47830,CGI Generic Injectable Parameter,info,CGI abuses
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,47831,CGI Generic XSS (comprehensive test),medium,CGI abuses : XSS
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,49067,CGI Generic HTML Injections (quick test),medium,CGI abuses : XSS
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,52703,vsftpd Detection,info,FTP
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,55903,CGI Generic XSS (extended patterns),medium,CGI abuses : XSS
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,55904,CGI Generic Script Injection (quick test),medium,CGI abuses : XSS
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,65821,SSL RC4 Cipher Suites Supported (Bar Mitzvah),medium,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,66293,Unix Operating System on Extended Support,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,72771,Web Accessible Backups,info,CGI abuses
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,85582,Web Application Potentially Vulnerable to Clickjacking,medium,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,86420,Ethernet MAC Addresses,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,95631,SSL Certificate Signed Using Weak Hashing Algorithm (Known CA),info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,100669,Web Application Cookies Are Expired,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,106375,nginx HTTP Server Detection,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,138330,TLS Version 1.3 Protocol Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,149334,SSH Password Authentication Accepted,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_US_Prod1,2022-02-07 14:12:26,AWS_Scanner_Prod1,Basic Network Scan,150154,nginx 0.6.x < 1.20.1 1-Byte Memory Overwrite RCE,medium,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,11219,Nessus SYN scanner,info,Port scanners
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,10180,Ping the remote host,info,Port scanners
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,10736,DCE Services Enumeration,info,Windows
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,22964,Service Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,10863,SSL Certificate Information,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,21643,SSL Cipher Suites Supported,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,51192,SSL Certificate Cannot Be Trusted,medium,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,56984,SSL / TLS Versions Supported,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,57041,SSL Perfect Forward Secrecy Cipher Suites Supported,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,136318,TLS Version 1.2 Protocol Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,24260,HyperText Transfer Protocol (HTTP) Information,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,62564,TLS Next Protocols Supported,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,70544,SSL Cipher Block Chaining Cipher Suites Supported,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,156899,SSL/TLS Recommended Cipher Suites,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,84821,TLS ALPN Supported Protocol Enumeration,info,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,87242,TLS NPN Supported Protocol Enumeration,info,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,12053,Host Fully Qualified Domain Name (FQDN) Resolution,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,19506,Nessus Scan Information,info,Settings
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,46215,Inconsistent Hostname and IP Address,info,Settings
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,10287,Traceroute Information,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,43111,HTTP Methods Allowed (per directory),info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,11936,OS Identification,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,45590,Common Platform Enumeration (CPE),info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,54615,Device Type,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,57582,SSL Self-Signed Certificate,medium,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,110723,Target Credential Status by Authentication Protocol - No Credentials Provided,info,Settings
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,117886,OS Security Patch Assessment Not Available,info,Settings
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,138330,TLS Version 1.3 Protocol Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,84502,HSTS Missing From HTTPS Server,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,94761,SSL Root Certification Authority Certificate Information,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,11011,Microsoft Windows SMB Service Detection,info,Windows
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,45410,SSL Certificate 'commonName' Mismatch,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,10107,HTTP Server Type and Version,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,25220,TCP/IP Timestamps Supported,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,35297,SSL Service Requests Client Certificate,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,42981,SSL Certificate Expiry - Future Expiry,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,83298,SSL Certificate Chain Contains Certificates Expiring Soon,info,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,10267,SSH Server Type and Version Information,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,70657,SSH Algorithms and Languages Supported,info,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,132634,Deprecated SSLv2 Connection Attempts,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,153588,SSH SHA-1 HMAC Algorithms Enabled,info,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,10150,Windows NetBIOS / SMB Remote Host Information Disclosure,info,Windows
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,10785,Microsoft Windows SMB NativeLanManager Remote System Information Disclosure,info,Windows
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,10881,SSH Protocol Versions Supported,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,10919,Open Port Re-check,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,42410,Microsoft Windows NTLMSSP Authentication Request Remote Network Name Disclosure,info,Windows
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,57608,SMB Signing not required,medium,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,96982,Server Message Block (SMB) Protocol Version 1 Enabled (uncredentialed check),info,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,100871,Microsoft Windows SMB Versions Supported (remote check),info,Windows
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,106716,Microsoft Windows SMB2 and SMB3 Dialects Supported (remote check),info,Windows
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,135860,WMI Not Available,info,Windows
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,10114,ICMP Timestamp Request Remote Date Disclosure,info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,11032,Web Server Directory Enumeration,info,Web Servers
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,15901,SSL Certificate Expiry,medium,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,39520,Backported Security Patch Detection (SSH),info,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,121471,Kubernetes Web API Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,153953,SSH Weak Key Exchange Algorithms Enabled,low,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,10144,Microsoft SQL Server TCP/IP Listener Detection,info,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,35291,SSL Certificate Signed Using Weak Hashing Algorithm,medium,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,43815,NetBIOS Multiple IP Address Enumeration,info,Windows
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,45411,SSL Certificate with Wrong Hostname,medium,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,65821,SSL RC4 Cipher Suites Supported (Bar Mitzvah),medium,General
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,69482,Microsoft SQL Server STARTTLS Support,info,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,104743,TLS Version 1.0 Protocol Detection,medium,Service detection
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,108761,MSSQL Host Information in NTLM SSP,info,Misc.
+jbrenes1@snapfinance.com,BasicNetworkScan_UK,2022-02-07 13:08:00,AWS_Scanner_UK,Basic Network Scan,121010,TLS Version 1.1 Protocol Detection,info,Service detection

@@ -1,0 +1,4055 @@
+{
+  "info": {
+    "owner": "jbrenes1@snapfinance.com",
+    "name": "BasicNetworkScan_UK",
+    "no_target": false,
+    "folder_id": 18,
+    "control": true,
+    "user_permissions": 128,
+    "schedule_uuid": "template-ff5cae6c-417d-0b4b-da34-25dd982f0b4032adbb292207e945",
+    "edit_allowed": false,
+    "scanner_name": "AWS_Scanner_UK",
+    "policy": "Basic Network Scan",
+    "shared": null,
+    "object_id": 129,
+    "tag_targets": null,
+    "acls": [
+      {
+        "permissions": 0,
+        "owner": null,
+        "display_name": null,
+        "name": null,
+        "uuid": null,
+        "id": null,
+        "type": "default"
+      },
+      {
+        "permissions": 128,
+        "owner": 1,
+        "display_name": "jbrenes1@snapfinance.com",
+        "name": "jbrenes1@snapfinance.com",
+        "uuid": "7333718f-717a-4a66-a880-68bd6980e5a7",
+        "id": 2001734,
+        "type": "user"
+      }
+    ],
+    "hostcount": 34,
+    "uuid": "e8210655-968d-49ff-8c61-735d85e95eda",
+    "status": "completed",
+    "scan_type": "remote",
+    "targets": "i-07be6d9a8c5f36ac7,i-026756bb2c65c7b25,i-00086bea1688acf02,i-0074af2985a19e44a,i-04e37a0c3195b290f,i-0714ee399af37cc21,i-0a060a9b454e6edad,i-031100b49202bc413,i-063d16e4258e93cc2,i-0b1fc6e32888efaf4,i-0059dd89f676b2d08,i-088958d92d5b2b27b,i-0af8576667171d590,i-0f83ad21ace11224b,i-05cf9bbc91274ea85,i-0fdb5f12bb01ea706,i-05230bc9b6f8132f7,i-06b9d22d3d9d97d48,i-01fa3e2344ecac936,i-0cbdb29117d30157c,i-0e7b855b510383ae1,i-0fea9d2b9b8e00f4f,i-03254e316a54558c0,i-07362897175943b8b,i-02545aa4ebfb95f81,i-02d6fbe31aecd9be2,i-0a943a2b2450fbe2c,i-029b70655ee26241f,i-0a8de0d862a4fef11,i-05d65b65459669b37,i-029ca54a773d9cbe7,i-0c277779f0319d702,i-031f82e52b8746278,i-0d4c1be23ddfc4c83,i-059277c0a914e0a93,i-0f581950d7d4aface,i-04bf0368e5495cad0,i-032f2e00811d69f78,i-00714ce5baa2e7724,i-01ff8514a28663ba0,i-0eb024ac2054242d0,i-0252064df8d8b06bd,i-0f0a4dfa90bc2a5f6,i-0cf2c6c61c837fcbe,i-0cc1c99c3c5c767a2,i-0c540fc6aaea1b924,i-0015f54cdc738f8d9,i-072c1ea2d489fb4b7,i-0cf59766da6d543d0,i-070b1ce9d6686b47b,i-0e8d72d2b65afe48f,i-040a93bc3fad0eb3e,i-0f05c564928a50b00,i-0ab80574777cd8332,i-012accd81a89a5941,i-0d88c2067b4129bde,i-039727a65fd7423ac,i-0b95c615b2a39a3ca,i-0264daf4066ac2976,i-0401cbbe6a5f1a115,i-0b488ead10295f4d7,i-077c5e1477a59fb43,i-04891950355d5336c,i-0ff4c54d65ecc16a7,i-0eb8eced34af2c975,i-0fb8c525686e9c4e8,i-0b3f1b77b6a9aea3a,i-0a724b09852081d68,i-051789481fc9c42f2,i-0771aedd0cd9da435,i-078becf4f894a87ee,i-04dc4d3061b767683,i-05ae36e8bd9bb30b3,i-03509e5c4f906ada3,i-03c2d9259e714c299,i-01dfcaafec318686f,i-0c8d60723bb0c89c5,i-03f4e9dfbdf6b4954,i-0c3705c84c32e730f,i-00a7e3b4ab209e1c7,i-0bbcd9f9ddbeb8000,i-03f20af857e949904,i-0968722f6421f6774,i-031cfb2b628069a51,i-0d9575c76762f6ec3,i-012fdea482210b25c,i-012c00da41f4b2457,i-0704653985d9ab59f,i-0f10c3ae6e4b7dcfc,i-043b2ba72d03362e3,i-0b8d904402fc7feda,i-04f7db95accdd0136,i-085d7119df60d6a96,i-0de728c3c94957e2f,i-034fe732259024f63,i-058160d20826e4a8a,i-04b0fcaced22dc204,i-03051df78902364a0,i-0c8b4a8907ce9e9b4,i-042b776e297eab0e7,i-0edc383cefcc9d55e,i-035a033a0e8e00ef5,i-0f529ecce10d583a2",
+    "alt_targets_used": false,
+    "pci-can-upload": false,
+    "scan_start": 1644217409,
+    "timestamp": 1644219480,
+    "is_archived": false,
+    "reindexing": false,
+    "scan_end": 1644219480,
+    "haskb": true,
+    "hasaudittrail": true,
+    "scanner_start": null,
+    "scanner_end": null
+  },
+  "hosts": [
+    {
+      "asset_id": 15,
+      "host_id": 15,
+      "uuid": "71435aaf-9ec3-49a9-94da-f7dc92224ea2",
+      "hostname": "i-03f4e9dfbdf6b4954",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 124,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 10,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 134,
+      "score": 1124,
+      "info": 124,
+      "low": 0,
+      "medium": 10,
+      "high": 0,
+      "critical": 0,
+      "host_index": 0
+    },
+    {
+      "asset_id": 30,
+      "host_id": 30,
+      "uuid": "d9fd4ebd-e90b-4ad1-a52d-8bcbf6e117c7",
+      "hostname": "i-043b2ba72d03362e3",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 116,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 9,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 125,
+      "score": 1016,
+      "info": 116,
+      "low": 0,
+      "medium": 9,
+      "high": 0,
+      "critical": 0,
+      "host_index": 1
+    },
+    {
+      "asset_id": 17,
+      "host_id": 17,
+      "uuid": "6ed9c598-3225-44b9-a2ca-a87dd7622ac4",
+      "hostname": "i-0c3705c84c32e730f",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 96,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 6,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 102,
+      "score": 696,
+      "info": 96,
+      "low": 0,
+      "medium": 6,
+      "high": 0,
+      "critical": 0,
+      "host_index": 2
+    },
+    {
+      "asset_id": 27,
+      "host_id": 27,
+      "uuid": "62b71e64-f1fb-440c-9d1f-69f681252f8e",
+      "hostname": "i-012c00da41f4b2457",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 53,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 7,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 60,
+      "score": 753,
+      "info": 53,
+      "low": 0,
+      "medium": 7,
+      "high": 0,
+      "critical": 0,
+      "host_index": 3
+    },
+    {
+      "asset_id": 24,
+      "host_id": 24,
+      "uuid": "1ce15d6d-6f15-4655-88f1-f7f38051643f",
+      "hostname": "i-0edc383cefcc9d55e",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 37,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 1,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 38,
+      "score": 137,
+      "info": 37,
+      "low": 0,
+      "medium": 1,
+      "high": 0,
+      "critical": 0,
+      "host_index": 4
+    },
+    {
+      "asset_id": 29,
+      "host_id": 29,
+      "uuid": "e03981ff-199c-4a06-a8fe-c54e8c6ae7b1",
+      "hostname": "i-0704653985d9ab59f",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 33,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 1,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 34,
+      "score": 133,
+      "info": 33,
+      "low": 0,
+      "medium": 1,
+      "high": 0,
+      "critical": 0,
+      "host_index": 5
+    },
+    {
+      "asset_id": 9,
+      "host_id": 9,
+      "uuid": "6f54f628-f7e3-4bcd-ae2d-e64e101c7517",
+      "hostname": "i-03509e5c4f906ada3",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 19,
+            "severitylevel": 0
+          },
+          {
+            "count": 1,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 20,
+      "score": 29,
+      "info": 19,
+      "low": 1,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 6
+    },
+    {
+      "asset_id": 26,
+      "host_id": 26,
+      "uuid": "9d2ebe66-c37b-4270-8ed3-4da86ce1e0fc",
+      "hostname": "i-078becf4f894a87ee",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 19,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 1,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 20,
+      "score": 119,
+      "info": 19,
+      "low": 0,
+      "medium": 1,
+      "high": 0,
+      "critical": 0,
+      "host_index": 7
+    },
+    {
+      "asset_id": 8,
+      "host_id": 8,
+      "uuid": "f3110be3-7eca-4f24-a71e-f090d708fe2c",
+      "hostname": "i-04dc4d3061b767683",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 19,
+            "severitylevel": 0
+          },
+          {
+            "count": 1,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 20,
+      "score": 29,
+      "info": 19,
+      "low": 1,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 8
+    },
+    {
+      "asset_id": 25,
+      "host_id": 25,
+      "uuid": "93aeab87-9478-4422-bc85-1714d56c4ce7",
+      "hostname": "i-0a724b09852081d68",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 5,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 5,
+      "score": 5,
+      "info": 5,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 9
+    },
+    {
+      "asset_id": 4,
+      "host_id": 4,
+      "uuid": "f5b2bdfc-b17e-4a3b-90bf-0628f360dc5c",
+      "hostname": "i-0f10c3ae6e4b7dcfc",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 4,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 4,
+      "score": 4,
+      "info": 4,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 10
+    },
+    {
+      "asset_id": 13,
+      "host_id": 13,
+      "uuid": "0387b345-8a7c-45aa-ac26-a18695d05804",
+      "hostname": "i-040a93bc3fad0eb3e",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 11
+    },
+    {
+      "asset_id": 14,
+      "host_id": 14,
+      "uuid": "081aad29-a255-4b29-87c1-0d98b89ab4e3",
+      "hostname": "i-072c1ea2d489fb4b7",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 12
+    },
+    {
+      "asset_id": 10,
+      "host_id": 10,
+      "uuid": "0f8fe63f-0e0a-4948-9174-c17350b24f79",
+      "hostname": "i-034fe732259024f63",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 13
+    },
+    {
+      "asset_id": 3,
+      "host_id": 3,
+      "uuid": "24c3800a-0cf3-42db-b97f-1a26d02cb440",
+      "hostname": "i-0c8d60723bb0c89c5",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 14
+    },
+    {
+      "asset_id": 2,
+      "host_id": 2,
+      "uuid": "2a725cd2-da18-47c5-ad0b-59bc105f426c",
+      "hostname": "i-035a033a0e8e00ef5",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 15
+    },
+    {
+      "asset_id": 22,
+      "host_id": 22,
+      "uuid": "40e9ba2f-5c94-44c9-a2a3-9581d5521d78",
+      "hostname": "i-042b776e297eab0e7",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 16
+    },
+    {
+      "asset_id": 21,
+      "host_id": 21,
+      "uuid": "437a05ed-ce8d-4b4a-84a8-619e375fad5e",
+      "hostname": "i-0771aedd0cd9da435",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 17
+    },
+    {
+      "asset_id": 35,
+      "host_id": 35,
+      "uuid": "4d30b29a-432c-49a2-9bc4-92b4af7ed6a3",
+      "hostname": "i-0b95c615b2a39a3ca",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 18
+    },
+    {
+      "asset_id": 6,
+      "host_id": 6,
+      "uuid": "521a6edf-d35f-4432-aa25-7fa7f30a7613",
+      "hostname": "i-077c5e1477a59fb43",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 19
+    },
+    {
+      "asset_id": 11,
+      "host_id": 11,
+      "uuid": "5548bb75-074f-4256-8740-817d626751f2",
+      "hostname": "i-01dfcaafec318686f",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 20
+    },
+    {
+      "asset_id": 31,
+      "host_id": 31,
+      "uuid": "6c33e520-db13-4a94-a2b3-db31414c7ee1",
+      "hostname": "i-0401cbbe6a5f1a115",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 21
+    },
+    {
+      "asset_id": 16,
+      "host_id": 16,
+      "uuid": "6c419eae-86f0-433c-9a47-728ec3e41ebe",
+      "hostname": "i-00a7e3b4ab209e1c7",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 22
+    },
+    {
+      "asset_id": 23,
+      "host_id": 23,
+      "uuid": "6f5d39ff-62f9-4521-a1f1-87d3d2d51bf7",
+      "hostname": "i-012fdea482210b25c",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 23
+    },
+    {
+      "asset_id": 5,
+      "host_id": 5,
+      "uuid": "a07d723e-dad7-4dbd-a3d6-d957095f093c",
+      "hostname": "i-03051df78902364a0",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 24
+    },
+    {
+      "asset_id": 20,
+      "host_id": 20,
+      "uuid": "a32dab69-4087-46aa-aac3-435252329524",
+      "hostname": "i-0f529ecce10d583a2",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 25
+    },
+    {
+      "asset_id": 32,
+      "host_id": 32,
+      "uuid": "a6691c73-a05a-489c-b9a8-67cee97fb551",
+      "hostname": "i-039727a65fd7423ac",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 26
+    },
+    {
+      "asset_id": 34,
+      "host_id": 34,
+      "uuid": "a92b6a7f-974c-4e38-9e2c-e0a65e65284b",
+      "hostname": "i-0264daf4066ac2976",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 27
+    },
+    {
+      "asset_id": 33,
+      "host_id": 33,
+      "uuid": "add8cddb-5bb9-4d56-a175-86e73f956bc1",
+      "hostname": "i-0d88c2067b4129bde",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 28
+    },
+    {
+      "asset_id": 18,
+      "host_id": 18,
+      "uuid": "b598eeda-31c4-4216-99e5-b2d237246b0d",
+      "hostname": "i-04b0fcaced22dc204",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 29
+    },
+    {
+      "asset_id": 28,
+      "host_id": 28,
+      "uuid": "c4625c50-7f96-4731-a53f-dfeb07008a9d",
+      "hostname": "i-0968722f6421f6774",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 30
+    },
+    {
+      "asset_id": 7,
+      "host_id": 7,
+      "uuid": "d38ebf45-10c1-416a-bb67-a9ca61938156",
+      "hostname": "i-0eb8eced34af2c975",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 31
+    },
+    {
+      "asset_id": 12,
+      "host_id": 12,
+      "uuid": "d795d279-0139-40a6-ac28-b05a2ab22f1d",
+      "hostname": "i-0d9575c76762f6ec3",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 32
+    },
+    {
+      "asset_id": 19,
+      "host_id": 19,
+      "uuid": "e62e9b59-e4c4-4eba-a2e2-6bab95f5f6ce",
+      "hostname": "i-0c8b4a8907ce9e9b4",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 1,
+            "severitylevel": 0
+          },
+          {
+            "count": 0,
+            "severitylevel": 1
+          },
+          {
+            "count": 0,
+            "severitylevel": 2
+          },
+          {
+            "count": 0,
+            "severitylevel": 3
+          },
+          {
+            "count": 0,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 1,
+      "score": 1,
+      "info": 1,
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0,
+      "host_index": 33
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "count": 56,
+      "plugin_id": 11219,
+      "plugin_name": "Nessus SYN scanner",
+      "severity": 0,
+      "plugin_family": "Port scanners",
+      "vuln_index": 1
+    },
+    {
+      "count": 34,
+      "plugin_id": 10180,
+      "plugin_name": "Ping the remote host",
+      "severity": 0,
+      "plugin_family": "Port scanners",
+      "vuln_index": 2
+    },
+    {
+      "count": 34,
+      "plugin_id": 10736,
+      "plugin_name": "DCE Services Enumeration",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 3
+    },
+    {
+      "count": 27,
+      "plugin_id": 22964,
+      "plugin_name": "Service Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 4
+    },
+    {
+      "count": 16,
+      "plugin_id": 10863,
+      "plugin_name": "SSL Certificate Information",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 5
+    },
+    {
+      "count": 16,
+      "plugin_id": 21643,
+      "plugin_name": "SSL Cipher Suites Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 6
+    },
+    {
+      "count": 16,
+      "plugin_id": 51192,
+      "plugin_name": "SSL Certificate Cannot Be Trusted",
+      "severity": 2,
+      "plugin_family": "General",
+      "vuln_index": 7
+    },
+    {
+      "count": 16,
+      "plugin_id": 56984,
+      "plugin_name": "SSL / TLS Versions Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 8
+    },
+    {
+      "count": 16,
+      "plugin_id": 57041,
+      "plugin_name": "SSL Perfect Forward Secrecy Cipher Suites Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 9
+    },
+    {
+      "count": 16,
+      "plugin_id": 136318,
+      "plugin_name": "TLS Version 1.2 Protocol Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 10
+    },
+    {
+      "count": 15,
+      "plugin_id": 24260,
+      "plugin_name": "HyperText Transfer Protocol (HTTP) Information",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 11
+    },
+    {
+      "count": 15,
+      "plugin_id": 62564,
+      "plugin_name": "TLS Next Protocols Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 12
+    },
+    {
+      "count": 13,
+      "plugin_id": 70544,
+      "plugin_name": "SSL Cipher Block Chaining Cipher Suites Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 13
+    },
+    {
+      "count": 13,
+      "plugin_id": 156899,
+      "plugin_name": "SSL/TLS Recommended Cipher Suites",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 14
+    },
+    {
+      "count": 12,
+      "plugin_id": 84821,
+      "plugin_name": "TLS ALPN Supported Protocol Enumeration",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 15
+    },
+    {
+      "count": 12,
+      "plugin_id": 87242,
+      "plugin_name": "TLS NPN Supported Protocol Enumeration",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 16
+    },
+    {
+      "count": 11,
+      "plugin_id": 12053,
+      "plugin_name": "Host Fully Qualified Domain Name (FQDN) Resolution",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 17
+    },
+    {
+      "count": 11,
+      "plugin_id": 19506,
+      "plugin_name": "Nessus Scan Information",
+      "severity": 0,
+      "plugin_family": "Settings",
+      "vuln_index": 18
+    },
+    {
+      "count": 11,
+      "plugin_id": 46215,
+      "plugin_name": "Inconsistent Hostname and IP Address",
+      "severity": 0,
+      "plugin_family": "Settings",
+      "vuln_index": 19
+    },
+    {
+      "count": 10,
+      "plugin_id": 10287,
+      "plugin_name": "Traceroute Information",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 20
+    },
+    {
+      "count": 10,
+      "plugin_id": 43111,
+      "plugin_name": "HTTP Methods Allowed (per directory)",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 21
+    },
+    {
+      "count": 9,
+      "plugin_id": 11936,
+      "plugin_name": "OS Identification",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 22
+    },
+    {
+      "count": 9,
+      "plugin_id": 45590,
+      "plugin_name": "Common Platform Enumeration (CPE)",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 23
+    },
+    {
+      "count": 9,
+      "plugin_id": 54615,
+      "plugin_name": "Device Type",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 24
+    },
+    {
+      "count": 9,
+      "plugin_id": 57582,
+      "plugin_name": "SSL Self-Signed Certificate",
+      "severity": 2,
+      "plugin_family": "General",
+      "vuln_index": 25
+    },
+    {
+      "count": 9,
+      "plugin_id": 110723,
+      "plugin_name": "Target Credential Status by Authentication Protocol - No Credentials Provided",
+      "severity": 0,
+      "plugin_family": "Settings",
+      "vuln_index": 26
+    },
+    {
+      "count": 9,
+      "plugin_id": 117886,
+      "plugin_name": "OS Security Patch Assessment Not Available",
+      "severity": 0,
+      "plugin_family": "Settings",
+      "vuln_index": 27
+    },
+    {
+      "count": 9,
+      "plugin_id": 138330,
+      "plugin_name": "TLS Version 1.3 Protocol Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 28
+    },
+    {
+      "count": 8,
+      "plugin_id": 84502,
+      "plugin_name": "HSTS Missing From HTTPS Server",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 29
+    },
+    {
+      "count": 8,
+      "plugin_id": 94761,
+      "plugin_name": "SSL Root Certification Authority Certificate Information",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 30
+    },
+    {
+      "count": 7,
+      "plugin_id": 11011,
+      "plugin_name": "Microsoft Windows SMB Service Detection",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 31
+    },
+    {
+      "count": 7,
+      "plugin_id": 45410,
+      "plugin_name": "SSL Certificate 'commonName' Mismatch",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 32
+    },
+    {
+      "count": 6,
+      "plugin_id": 10107,
+      "plugin_name": "HTTP Server Type and Version",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 33
+    },
+    {
+      "count": 6,
+      "plugin_id": 25220,
+      "plugin_name": "TCP/IP Timestamps Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 34
+    },
+    {
+      "count": 6,
+      "plugin_id": 35297,
+      "plugin_name": "SSL Service Requests Client Certificate",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 35
+    },
+    {
+      "count": 6,
+      "plugin_id": 42981,
+      "plugin_name": "SSL Certificate Expiry - Future Expiry",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 36
+    },
+    {
+      "count": 6,
+      "plugin_id": 83298,
+      "plugin_name": "SSL Certificate Chain Contains Certificates Expiring Soon",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 37
+    },
+    {
+      "count": 5,
+      "plugin_id": 10267,
+      "plugin_name": "SSH Server Type and Version Information",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 38
+    },
+    {
+      "count": 5,
+      "plugin_id": 70657,
+      "plugin_name": "SSH Algorithms and Languages Supported",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 39
+    },
+    {
+      "count": 5,
+      "plugin_id": 132634,
+      "plugin_name": "Deprecated SSLv2 Connection Attempts",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 40
+    },
+    {
+      "count": 5,
+      "plugin_id": 153588,
+      "plugin_name": "SSH SHA-1 HMAC Algorithms Enabled",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 41
+    },
+    {
+      "count": 4,
+      "plugin_id": 10150,
+      "plugin_name": "Windows NetBIOS / SMB Remote Host Information Disclosure",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 42
+    },
+    {
+      "count": 4,
+      "plugin_id": 10785,
+      "plugin_name": "Microsoft Windows SMB NativeLanManager Remote System Information Disclosure",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 43
+    },
+    {
+      "count": 4,
+      "plugin_id": 10881,
+      "plugin_name": "SSH Protocol Versions Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 44
+    },
+    {
+      "count": 4,
+      "plugin_id": 10919,
+      "plugin_name": "Open Port Re-check",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 45
+    },
+    {
+      "count": 4,
+      "plugin_id": 42410,
+      "plugin_name": "Microsoft Windows NTLMSSP Authentication Request Remote Network Name Disclosure",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 46
+    },
+    {
+      "count": 4,
+      "plugin_id": 57608,
+      "plugin_name": "SMB Signing not required",
+      "severity": 2,
+      "plugin_family": "Misc.",
+      "vuln_index": 47
+    },
+    {
+      "count": 4,
+      "plugin_id": 96982,
+      "plugin_name": "Server Message Block (SMB) Protocol Version 1 Enabled (uncredentialed check)",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 48
+    },
+    {
+      "count": 4,
+      "plugin_id": 100871,
+      "plugin_name": "Microsoft Windows SMB Versions Supported (remote check)",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 49
+    },
+    {
+      "count": 4,
+      "plugin_id": 106716,
+      "plugin_name": "Microsoft Windows SMB2 and SMB3 Dialects Supported (remote check)",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 50
+    },
+    {
+      "count": 4,
+      "plugin_id": 135860,
+      "plugin_name": "WMI Not Available",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 51
+    },
+    {
+      "count": 3,
+      "plugin_id": 10114,
+      "plugin_name": "ICMP Timestamp Request Remote Date Disclosure",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 52
+    },
+    {
+      "count": 2,
+      "plugin_id": 11032,
+      "plugin_name": "Web Server Directory Enumeration",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 53
+    },
+    {
+      "count": 2,
+      "plugin_id": 15901,
+      "plugin_name": "SSL Certificate Expiry",
+      "severity": 2,
+      "plugin_family": "General",
+      "vuln_index": 54
+    },
+    {
+      "count": 2,
+      "plugin_id": 39520,
+      "plugin_name": "Backported Security Patch Detection (SSH)",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 55
+    },
+    {
+      "count": 2,
+      "plugin_id": 121471,
+      "plugin_name": "Kubernetes Web API Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 56
+    },
+    {
+      "count": 2,
+      "plugin_id": 153953,
+      "plugin_name": "SSH Weak Key Exchange Algorithms Enabled",
+      "severity": 1,
+      "plugin_family": "Misc.",
+      "vuln_index": 57
+    },
+    {
+      "count": 1,
+      "plugin_id": 10144,
+      "plugin_name": "Microsoft SQL Server TCP/IP Listener Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 58
+    },
+    {
+      "count": 1,
+      "plugin_id": 35291,
+      "plugin_name": "SSL Certificate Signed Using Weak Hashing Algorithm",
+      "severity": 2,
+      "plugin_family": "General",
+      "vuln_index": 59
+    },
+    {
+      "count": 1,
+      "plugin_id": 43815,
+      "plugin_name": "NetBIOS Multiple IP Address Enumeration",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 60
+    },
+    {
+      "count": 1,
+      "plugin_id": 45411,
+      "plugin_name": "SSL Certificate with Wrong Hostname",
+      "severity": 2,
+      "plugin_family": "General",
+      "vuln_index": 61
+    },
+    {
+      "count": 1,
+      "plugin_id": 65821,
+      "plugin_name": "SSL RC4 Cipher Suites Supported (Bar Mitzvah)",
+      "severity": 2,
+      "plugin_family": "General",
+      "vuln_index": 62
+    },
+    {
+      "count": 1,
+      "plugin_id": 69482,
+      "plugin_name": "Microsoft SQL Server STARTTLS Support",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 63
+    },
+    {
+      "count": 1,
+      "plugin_id": 104743,
+      "plugin_name": "TLS Version 1.0 Protocol Detection",
+      "severity": 2,
+      "plugin_family": "Service detection",
+      "vuln_index": 64
+    },
+    {
+      "count": 1,
+      "plugin_id": 108761,
+      "plugin_name": "MSSQL Host Information in NTLM SSP",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 65
+    },
+    {
+      "count": 1,
+      "plugin_id": 121010,
+      "plugin_name": "TLS Version 1.1 Protocol Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 66
+    }
+  ],
+  "comphosts": [],
+  "compliance": [],
+  "filters": [
+    {
+      "name": "host.id",
+      "readable_name": "Asset ID",
+      "control": {
+        "type": "entry",
+        "regex": "[0-9a-f]{8}-([0-9a-f]{4}-){3}[0-9a-f]{12}(,[0-9a-f]{8}-([0-9a-f]{4}-){3}[0-9a-f]{12})*",
+        "readable_regex": "01234567-abcd-ef01-2345-6789abcdef01"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.bid",
+      "readable_name": "Bugtraq ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(,[0-9]+)*",
+        "readable_regex": "NUMBER",
+        "maxlength": 18
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploit_framework_canvas",
+      "readable_name": "CANVAS Exploit Framework",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.canvas_package",
+      "readable_name": "CANVAS Package",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "CANVAS",
+          "D2ExploitPack",
+          "White_Phosphorus"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:CERT-CC",
+      "readable_name": "CERT Advisory ID",
+      "control": {
+        "type": "entry",
+        "regex": "^CA-[0-9]+-[0-9]+(,CA-[0-9]+-[0-9]+)*$",
+        "readable_regex": "CA-YYYY-ID (ie: CA-2003-08)"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:CERT",
+      "readable_name": "CERT Vulnerability ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(,[0-9]+)*$",
+        "readable_regex": "Cert VU reference (ie: 10031)",
+        "maxlength": 18
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploit_framework_core",
+      "readable_name": "CORE Exploit Framework",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cpe",
+      "readable_name": "CPE",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cve.raw",
+      "readable_name": "CVE",
+      "control": {
+        "type": "entry",
+        "regex": "^(CVE|CAN|cve|can)-(1999|20[0-9][0-9])-[0-9]{4,}(,(CVE|CAN|cve|can)-(1999|20[0-9][0-9])-[0-9]{4,})*$",
+        "readable_regex": "CVE-2015-9876,CVE-2016-10456"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss_base_score",
+      "readable_name": "CVSS Base Score",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(\\.[0-9]+)?$",
+        "readable_regex": "7.5"
+      },
+      "operators": [
+        "lte",
+        "gte",
+        "eq",
+        "neq",
+        "lt",
+        "gt"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss_temporal_score",
+      "readable_name": "CVSS Temporal Score",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(\\.[0-9]+)$",
+        "readable_regex": "4.2"
+      },
+      "operators": [
+        "lte",
+        "gte",
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss_temporal_vector.raw",
+      "readable_name": "CVSS Temporal Vector",
+      "control": {
+        "type": "entry",
+        "regex": "^CVSS2#E:(U|POC|F|H|ND)/RL:(OF|T|W|U|ND)/RC:(UC|UR|C|ND)(,(CVSS2#E:(U|POC|F|H|ND)/RL:(OF|T|W|U|ND)/RC:(UC|UR|C|ND)))*$",
+        "readable_regex": "E:H, E:F"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss_vector.raw",
+      "readable_name": "CVSS Vector",
+      "control": {
+        "type": "entry",
+        "regex": "^CVSS2#AV:(L|A|N)/AC:(H|M|L)/Au:(N|S|M)/C:(N|P|C)/I:(N|P|C)/A:(N|P|C)(,(CVSS2#AV:(L|A|N)/AC:(H|M|L)/Au:(N|S|M)/C:(N|P|C)/I:(N|P|C)/A:(N|P|C)))*$",
+        "readable_regex": "AV:N, AV:A"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss3_base_score",
+      "readable_name": "CVSS v3.0 Base Score",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(\\.[0-9]+)?$",
+        "readable_regex": "7.5"
+      },
+      "operators": [
+        "lte",
+        "gte",
+        "eq",
+        "neq",
+        "lt",
+        "gt"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss3_temporal_score",
+      "readable_name": "CVSS v3.0 Temporal Score",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(\\.[0-9]+)$",
+        "readable_regex": "4.2"
+      },
+      "operators": [
+        "lte",
+        "gte",
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss3_temporal_vector.raw",
+      "readable_name": "CVSS v3.0 Temporal Vector",
+      "control": {
+        "type": "entry",
+        "regex": "^CVSS:3.0/E:(U|P|F|H|X)/RL:(O|T|W|U|X)/RC:(C|U|R|X)(,(CVSS:3.0/E:(U|P|F|H|X)/RL:(O|T|W|U|X)/RC:(C|U|R|X)))*$",
+        "readable_regex": "E:H, E:F"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss3_vector.raw",
+      "readable_name": "CVSS v3.0 Vector",
+      "control": {
+        "type": "entry",
+        "regex": "^CVSS:3.0/AV:(N|A|L|P)/AC:(L|H)/PR:(N|L|H)/UI:(N|R)/S:(U|C)/C:(H|L|N)/I:(H|L|N)/A:(H|L|N)(,(CVSS:3.0/AV:(N|A|L|P)/AC:(L|H)/PR:(N|L|H)/UI:(N|R)/S:(U|C)/C:(H|L|N)/I:(H|L|N)/A:(H|L|N)))*$",
+        "readable_regex": "AV:N, AV:A"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:CWE",
+      "readable_name": "CWE",
+      "control": {
+        "type": "entry",
+        "regex": "^([0-9]+)(,[0-9]+)*$",
+        "readable_regex": "CWE reference (ie: 200)"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "compliance_description",
+      "readable_name": "Check Name",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "compliance_reference",
+      "readable_name": "Compliance Reference",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.default_account",
+      "readable_name": "Default/Known Accounts",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploit_framework_d2_elliot",
+      "readable_name": "Elliot Exploit Framework",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.d2_elliot_name",
+      "readable_name": "Elliot Exploit Name",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploit_available",
+      "readable_name": "Exploit Available",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:EDB-ID",
+      "readable_name": "Exploit Database ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(,[0-9]+)*$",
+        "readable_regex": "NUMBER",
+        "maxlength": 18
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploit_framework_exploithub",
+      "readable_name": "ExploitHub",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploitability_ease.raw",
+      "readable_name": "Exploitability Ease",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "Exploits are available",
+          "No exploit is required",
+          "No known exploits are available"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploited_by_malware",
+      "readable_name": "Exploited By Malware",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploited_by_nessus",
+      "readable_name": "Exploited By Nessus",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "host.target",
+      "readable_name": "Hostname/IP Address",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "192.168.1.2,172.16.2.1-172.16.2.100,10.100.5.0/24,host.example.com"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch",
+        "begins"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:IAVA",
+      "readable_name": "IAVA ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+-[A-Za-z]-[0-9]+(-[SE])?(,[0-9]+-[A-Za-z]-[0-9]+(-[SE])?)*$",
+        "readable_regex": "IAVA reference (ie: 2011-A-0151)"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:IAVB",
+      "readable_name": "IAVB ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+-[A-Za-z]-[0-9]+(-[SE])?(,[0-9]+-[A-Za-z]-[0-9]+(-[SE])?)*$",
+        "readable_regex": "IAVB reference (ie: 2011-B-0151)"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.stig_severity",
+      "readable_name": "IAVM Severity",
+      "control": {
+        "type": "entry",
+        "regex": "^[ivIV]+",
+        "readable_regex": "IAVM Severity (ie: IV)"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:IAVT",
+      "readable_name": "IAVT ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+-[A-Za-z]-[0-9]+(-[SE])?(,[0-9]+-[A-Za-z]-[0-9]+(-[SE])?)*$",
+        "readable_regex": "IAVT reference (ie: 2011-A-0151)"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.in_the_news",
+      "readable_name": "In The News",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.malware",
+      "readable_name": "Malware",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploit_framework_metasploit",
+      "readable_name": "Metasploit Exploit Framework",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.metasploit_name",
+      "readable_name": "Metasploit Name",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:MSFT",
+      "readable_name": "Microsoft Bulletin",
+      "control": {
+        "type": "entry",
+        "regex": "^MS[0-9]+-[0-9]+(,MS[0-9]+-[0-9]+)*$",
+        "readable_regex": "MS99-999,MS00-789"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:OSVDB",
+      "readable_name": "OSVDB ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(,[0-9]+)*$",
+        "readable_regex": "NUMBER",
+        "maxlength": 18
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.patch_publication_date",
+      "readable_name": "Patch Publication Date",
+      "control": {
+        "type": "datefield",
+        "regex": "^[0-9]{4}/[0-9]{2}/[0-9]{2}$",
+        "readable_regex": "YYYY/MM/DD"
+      },
+      "operators": [
+        "date-lt",
+        "date-lte",
+        "date-gt",
+        "date-gte",
+        "date-eq",
+        "date-neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.description",
+      "readable_name": "Plugin Description",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.family_id",
+      "readable_name": "Plugin Family",
+      "control": {
+        "type": "dropdown_multi",
+        "list": [
+          {
+            "name": "Red Hat Local Security Checks",
+            "id": 1
+          },
+          {
+            "name": "HP-UX Local Security Checks",
+            "id": 2
+          },
+          {
+            "name": "Debian Local Security Checks",
+            "id": 3
+          },
+          {
+            "name": "Solaris Local Security Checks",
+            "id": 4
+          },
+          {
+            "name": "Fedora Local Security Checks",
+            "id": 5
+          },
+          {
+            "name": "CGI abuses",
+            "id": 6
+          },
+          {
+            "name": "Gentoo Local Security Checks",
+            "id": 7
+          },
+          {
+            "name": "SuSE Local Security Checks",
+            "id": 8
+          },
+          {
+            "name": "AIX Local Security Checks",
+            "id": 9
+          },
+          {
+            "name": "Windows : Microsoft Bulletins",
+            "id": 10
+          },
+          {
+            "name": "Web Servers",
+            "id": 11
+          },
+          {
+            "name": "SMTP problems",
+            "id": 12
+          },
+          {
+            "name": "FreeBSD Local Security Checks",
+            "id": 13
+          },
+          {
+            "name": "Ubuntu Local Security Checks",
+            "id": 14
+          },
+          {
+            "name": "Slackware Local Security Checks",
+            "id": 15
+          },
+          {
+            "name": "Mandrake Local Security Checks",
+            "id": 16
+          },
+          {
+            "name": "Remote file access",
+            "id": 17
+          },
+          {
+            "name": "CentOS Local Security Checks",
+            "id": 18
+          },
+          {
+            "name": "FTP",
+            "id": 19
+          },
+          {
+            "name": "Windows",
+            "id": 20
+          },
+          {
+            "name": "MacOS X Local Security Checks",
+            "id": 21
+          },
+          {
+            "name": "Denial of Service",
+            "id": 22
+          },
+          {
+            "name": "Misc.",
+            "id": 23
+          },
+          {
+            "name": "Service detection",
+            "id": 24
+          },
+          {
+            "name": "Default Unix Accounts",
+            "id": 25
+          },
+          {
+            "name": "CGI abuses : XSS",
+            "id": 26
+          },
+          {
+            "name": "Gain root remotely",
+            "id": 27
+          },
+          {
+            "name": "RPC",
+            "id": 28
+          },
+          {
+            "name": "Windows : User management",
+            "id": 29
+          },
+          {
+            "name": "General",
+            "id": 30
+          },
+          {
+            "name": "Databases",
+            "id": 31
+          },
+          {
+            "name": "Peer-To-Peer File Sharing",
+            "id": 32
+          },
+          {
+            "name": "CISCO",
+            "id": 33
+          },
+          {
+            "name": "Firewalls",
+            "id": 34
+          },
+          {
+            "name": "Backdoors",
+            "id": 35
+          },
+          {
+            "name": "SCADA",
+            "id": 36
+          },
+          {
+            "name": "DNS",
+            "id": 37
+          },
+          {
+            "name": "Useless services",
+            "id": 38
+          },
+          {
+            "name": "Policy Compliance",
+            "id": 39
+          },
+          {
+            "name": "Gain a shell remotely",
+            "id": 40
+          },
+          {
+            "name": "Settings",
+            "id": 41
+          },
+          {
+            "name": "Port scanners",
+            "id": 42
+          },
+          {
+            "name": "Netware",
+            "id": 43
+          },
+          {
+            "name": "Finger abuses",
+            "id": 44
+          },
+          {
+            "name": "SNMP",
+            "id": 45
+          },
+          {
+            "name": "NIS",
+            "id": 46
+          },
+          {
+            "name": "Mandriva Local Security Checks",
+            "id": 47
+          },
+          {
+            "name": "VMware ESX Local Security Checks",
+            "id": 48
+          },
+          {
+            "name": "Brute force attacks",
+            "id": 49
+          },
+          {
+            "name": "Junos Local Security Checks",
+            "id": 50
+          },
+          {
+            "name": "Scientific Linux Local Security Checks",
+            "id": 51
+          },
+          {
+            "name": "Mobile Devices",
+            "id": 52
+          },
+          {
+            "name": "Oracle Linux Local Security Checks",
+            "id": 53
+          },
+          {
+            "name": "Amazon Linux Local Security Checks",
+            "id": 54
+          },
+          {
+            "name": "Palo Alto Local Security Checks",
+            "id": 55
+          },
+          {
+            "name": "Huawei Local Security Checks",
+            "id": 56
+          },
+          {
+            "name": "F5 Networks Local Security Checks",
+            "id": 57
+          },
+          {
+            "name": "OracleVM Local Security Checks",
+            "id": 58
+          },
+          {
+            "name": "Incident Response",
+            "id": 59
+          },
+          {
+            "name": "Virtuozzo Local Security Checks",
+            "id": 60
+          },
+          {
+            "name": "NewStart CGSL Local Security Checks",
+            "id": 61
+          }
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.id",
+      "readable_name": "Plugin ID",
+      "control": {
+        "type": "entry",
+        "regex": "^(0|[1-9][0-9]{0,6})(\\s*-\\s*([1-9][0-9]{0,6}))?(,\\s*(0|[1-9][0-9]{0,6})(\\s*-\\s*([1-9][0-9]{0,6}))?)*$",
+        "readable_regex": "XXXXX,XXXXX-XXXXX",
+        "maxlength": 1000
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.plugin_modification_date",
+      "readable_name": "Plugin Modification Date",
+      "control": {
+        "type": "datefield",
+        "regex": "^[0-9]{4}/[0-9]{2}/[0-9]{2}$",
+        "readable_regex": "YYYY/MM/DD"
+      },
+      "operators": [
+        "date-lt",
+        "date-lte",
+        "date-gt",
+        "date-gte",
+        "date-eq",
+        "date-neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.name",
+      "readable_name": "Plugin Name",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "match",
+        "nmatch",
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "output",
+      "readable_name": "Plugin Output",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "text,other text"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.plugin_publication_date",
+      "readable_name": "Plugin Publication Date",
+      "control": {
+        "type": "datefield",
+        "regex": "^[0-9]{4}/[0-9]{2}/[0-9]{2}$",
+        "readable_regex": "YYYY/MM/DD"
+      },
+      "operators": [
+        "date-lt",
+        "date-lte",
+        "date-gt",
+        "date-gte",
+        "date-eq",
+        "date-neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.plugin_type",
+      "readable_name": "Plugin Type",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "local",
+          "remote"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "port.port",
+      "readable_name": "Port",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]{1,5}(\\s*-\\s*[0-9]{1,5})?(,\\s*[0-9]{1,5}(\\s*-\\s*[0-9]{1,5})?)*$",
+        "readable_regex": "80,8000-8080",
+        "maxlength": 1000
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "gte",
+        "lte"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "port.protocol",
+      "readable_name": "Protocol",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "tcp",
+          "udp",
+          "icmp"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "modification",
+      "readable_name": "Recast & Accept",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "Accepted",
+          "Recasted"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:Secunia",
+      "readable_name": "Secunia ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(,[0-9]+)*$",
+        "readable_regex": "NUMBER",
+        "maxlength": 18
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.see_also",
+      "readable_name": "See Also",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "severity",
+      "readable_name": "Severity",
+      "control": {
+        "type": "dropdown_multi",
+        "list": [
+          "Info",
+          "Low",
+          "Medium",
+          "High",
+          "Critical"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.solution",
+      "readable_name": "Solution",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.synopsis",
+      "readable_name": "Synopsis",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.unsupported_by_vendor",
+      "readable_name": "Unsupported By Vendor",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "tracking.first_found",
+      "readable_name": "Vulnerability First Seen",
+      "control": {
+        "type": "datefield",
+        "regex": "^[0-9]{4}/[0-9]{2}/[0-9]{2}$",
+        "readable_regex": "YYYY/MM/DD"
+      },
+      "operators": [
+        "date-lt",
+        "date-lte",
+        "date-gt",
+        "date-gte",
+        "date-eq",
+        "date-neq",
+        "with-in"
+      ],
+      "group_name": "vulnerability",
+      "customControl": [
+        {
+          "cstmOpr": "with-in",
+          "cstmCntrl": {
+            "type": "entry",
+            "regex": "^[0-9]+$",
+            "readable_regex": "10",
+            "maxlength": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "tracking.last_found",
+      "readable_name": "Vulnerability Last Seen",
+      "control": {
+        "type": "datefield",
+        "regex": "^[0-9]{4}/[0-9]{2}/[0-9]{2}$",
+        "readable_regex": "YYYY/MM/DD"
+      },
+      "operators": [
+        "date-lt",
+        "date-lte",
+        "date-gt",
+        "date-gte",
+        "date-eq",
+        "date-neq",
+        "with-in"
+      ],
+      "group_name": "vulnerability",
+      "customControl": [
+        {
+          "cstmOpr": "with-in",
+          "cstmCntrl": {
+            "type": "entry",
+            "regex": "^[0-9]+$",
+            "readable_regex": "10",
+            "maxlength": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "plugin.attributes.vpr.score",
+      "readable_name": "Vulnerability Priority Rating (VPR)",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(\\.[0-9])?$",
+        "readable_regex": "7.5"
+      },
+      "operators": [
+        "lte",
+        "gte",
+        "eq",
+        "neq",
+        "lt",
+        "gt"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.vuln_publication_date",
+      "readable_name": "Vulnerability Publication Date",
+      "control": {
+        "type": "datefield",
+        "regex": "^[0-9]{4}/[0-9]{2}/[0-9]{2}$",
+        "readable_regex": "YYYY/MM/DD"
+      },
+      "operators": [
+        "date-lt",
+        "date-lte",
+        "date-gt",
+        "date-gte",
+        "date-eq",
+        "date-neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "tracking.state",
+      "readable_name": "Vulnerability State",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "New",
+          "Fixed",
+          "Active",
+          "Resurfaced"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "tag.Assets_Type",
+      "readable_name": "Assets_Type",
+      "control": {
+        "type": "dropdown_multi",
+        "list": [
+          {
+            "name": "AWS PCI 3clogic",
+            "value": "AWS PCI 3clogic"
+          },
+          {
+            "name": "AWS_UK_Assets",
+            "value": "AWS_UK_Assets"
+          },
+          {
+            "name": "AWS_US_PROD1",
+            "value": "AWS_US_PROD1"
+          },
+          {
+            "name": "AWS_US_PROD2",
+            "value": "AWS_US_PROD2"
+          },
+          {
+            "name": "Network-Devices-CR",
+            "value": "Network-Devices-CR"
+          },
+          {
+            "name": "Network-Devices-SLC",
+            "value": "Network-Devices-SLC"
+          },
+          {
+            "name": "Vlan-Servers-CR",
+            "value": "Vlan-Servers-CR"
+          },
+          {
+            "name": "Vlan-Servers-SLC",
+            "value": "Vlan-Servers-SLC"
+          }
+        ]
+      },
+      "operators": [
+        "set-has",
+        "set-hasnot"
+      ],
+      "group_name": "vulnerability"
+    }
+  ],
+  "history": [
+    {
+      "history_id": 22870108,
+      "owner_id": 2001734,
+      "creation_date": 1644217409,
+      "last_modification_date": 1644219480,
+      "uuid": "e8210655-968d-49ff-8c61-735d85e95eda",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": false
+    },
+    {
+      "history_id": 22780799,
+      "owner_id": 2001734,
+      "creation_date": 1643612647,
+      "last_modification_date": 1643615071,
+      "uuid": "7a36e769-6f1a-4eb4-b6d3-a947720177da",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": false
+    },
+    {
+      "history_id": 22686259,
+      "owner_id": 2001734,
+      "creation_date": 1643007847,
+      "last_modification_date": 1643009633,
+      "uuid": "2445dbd1-25bf-4c63-aa27-0f1db84f11be",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": false
+    },
+    {
+      "history_id": 22591013,
+      "owner_id": 2001734,
+      "creation_date": 1642403053,
+      "last_modification_date": 1642405411,
+      "uuid": "99d6ca48-006c-401f-9dd5-60d81c2a5827",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": false
+    },
+    {
+      "history_id": 22499392,
+      "owner_id": 2001734,
+      "creation_date": 1641798283,
+      "last_modification_date": 1641800314,
+      "uuid": "a3709886-1b34-4037-813c-8b26b6206d1a",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": false
+    },
+    {
+      "history_id": 22398603,
+      "owner_id": 2001734,
+      "creation_date": 1641193493,
+      "last_modification_date": 1641195051,
+      "uuid": "7459b472-aa07-4c90-9cd6-f8e2a5cd2ec9",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 22301393,
+      "owner_id": 2001734,
+      "creation_date": 1640588846,
+      "last_modification_date": 1640590403,
+      "uuid": "821620cb-3f33-4b29-b65c-a75cef018798",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 22250541,
+      "owner_id": 2001734,
+      "creation_date": 1640277256,
+      "last_modification_date": 1640280563,
+      "uuid": "d5c0958f-b4d3-444b-bd4a-1f9f3168633c",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 22198188,
+      "owner_id": 2001734,
+      "creation_date": 1639983881,
+      "last_modification_date": 1639985338,
+      "uuid": "8f71b861-67e4-49d4-ab01-c2371ef0f08b",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 22094117,
+      "owner_id": 2001734,
+      "creation_date": 1639379020,
+      "last_modification_date": 1639381094,
+      "uuid": "62dba861-746d-46ee-8e0e-32ad3b92149e",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 22000580,
+      "owner_id": 2001734,
+      "creation_date": 1638774185,
+      "last_modification_date": 1638775429,
+      "uuid": "89669597-ead8-4afb-9824-f7a638564e5b",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 21910573,
+      "owner_id": 2001734,
+      "creation_date": 1638169458,
+      "last_modification_date": 1638170800,
+      "uuid": "8d6a1af0-ebdf-4b9e-9dbf-ebb0a229ca73",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 21825636,
+      "owner_id": 2001734,
+      "creation_date": 1637564581,
+      "last_modification_date": 1637565759,
+      "uuid": "43a5fddd-6efc-4f06-9ca6-7a2b5bf23b2c",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 21745740,
+      "owner_id": 2001734,
+      "creation_date": 1636959848,
+      "last_modification_date": 1636961252,
+      "uuid": "934b16c3-0ee7-400d-a5cd-643af121bfa4",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 21661118,
+      "owner_id": 2001734,
+      "creation_date": 1636355085,
+      "last_modification_date": 1636356650,
+      "uuid": "b4c725da-a121-4917-ae89-1e5d61480dfe",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 21571080,
+      "owner_id": 2001734,
+      "creation_date": 1635750163,
+      "last_modification_date": 1635751786,
+      "uuid": "1ba8f429-ac23-40bd-9460-1bc2cce7ffac",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 21485463,
+      "owner_id": 2001734,
+      "creation_date": 1635145383,
+      "last_modification_date": 1635147266,
+      "uuid": "9c7e4f0a-5b56-4f94-8907-311c76ce3884",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 21397603,
+      "owner_id": 2001734,
+      "creation_date": 1634540562,
+      "last_modification_date": 1634542464,
+      "uuid": "577e2c0b-96be-4483-8172-cb4e361273e8",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 21307465,
+      "owner_id": 2001734,
+      "creation_date": 1633935771,
+      "last_modification_date": 1633937408,
+      "uuid": "70d082ae-82a7-4eb4-b67f-3666b0f8078d",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 21216337,
+      "owner_id": 2001734,
+      "creation_date": 1633330987,
+      "last_modification_date": 1633333072,
+      "uuid": "eae75af4-81e1-4ef9-9583-06673b228644",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 21134527,
+      "owner_id": 2001734,
+      "creation_date": 1632726161,
+      "last_modification_date": 1632727854,
+      "uuid": "f3e6f075-0544-4166-846b-c74962c3bebf",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 21049468,
+      "owner_id": 2001734,
+      "creation_date": 1632121345,
+      "last_modification_date": 1632122903,
+      "uuid": "fd59537c-5273-44fa-a970-9fc03ceeb89d",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 20965419,
+      "owner_id": 2001734,
+      "creation_date": 1631516569,
+      "last_modification_date": 1631519092,
+      "uuid": "99f3e670-d01c-4740-85cf-815c7ebeaf06",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 20879717,
+      "owner_id": 2001734,
+      "creation_date": 1630911756,
+      "last_modification_date": 1630913946,
+      "uuid": "28aeda0d-0f3a-48eb-bab9-508dfd90badf",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 20798531,
+      "owner_id": 2001734,
+      "creation_date": 1630307014,
+      "last_modification_date": 1630309203,
+      "uuid": "be4190a6-be89-4260-96df-ac2692ed5a72",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 20214116,
+      "owner_id": 2001734,
+      "creation_date": 1626073332,
+      "last_modification_date": 1626082780,
+      "uuid": "3c4f2b2b-9091-4728-bab4-36ddc6b8ed7b",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 20115374,
+      "owner_id": 2001734,
+      "creation_date": 1625468568,
+      "last_modification_date": 1625470724,
+      "uuid": "efc2bf7e-aaf2-47b8-94e1-d387663cf6d5",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 20025312,
+      "owner_id": 2001734,
+      "creation_date": 1624863836,
+      "last_modification_date": 1624872215,
+      "uuid": "2556ed4a-1d79-4b30-bf8c-15224d332d8d",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 19929561,
+      "owner_id": 2001734,
+      "creation_date": 1624258974,
+      "last_modification_date": 1624261158,
+      "uuid": "e3a5558e-3a99-4833-acc2-17bc07cf785d",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 19835930,
+      "owner_id": 2001734,
+      "creation_date": 1623654196,
+      "last_modification_date": 1623656670,
+      "uuid": "81ae5b70-f475-4b3d-b243-4d9e65549561",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 19739512,
+      "owner_id": 2001734,
+      "creation_date": 1623049312,
+      "last_modification_date": 1623051418,
+      "uuid": "e823e022-c61f-4962-b932-d575a0ed8c2b",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 19640707,
+      "owner_id": 2001734,
+      "creation_date": 1622444678,
+      "last_modification_date": 1622446796,
+      "uuid": "6d00f9c2-fd96-4224-8004-5b9c21458f4e",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 19543563,
+      "owner_id": 2001734,
+      "creation_date": 1621839914,
+      "last_modification_date": 1621842155,
+      "uuid": "2e76d054-0c15-4265-b6a7-93dc8c529db8",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 19442622,
+      "owner_id": 2001734,
+      "creation_date": 1621234991,
+      "last_modification_date": 1621237415,
+      "uuid": "530312a5-4205-478e-976e-94965df17494",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 19342683,
+      "owner_id": 2001734,
+      "creation_date": 1620630164,
+      "last_modification_date": 1620632552,
+      "uuid": "6b810395-db7b-45f8-ab24-627734aafce9",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 19239437,
+      "owner_id": 2001734,
+      "creation_date": 1620025363,
+      "last_modification_date": 1620027798,
+      "uuid": "245ca415-afa9-45ba-89b8-b4c24853898d",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 19137376,
+      "owner_id": 2001734,
+      "creation_date": 1619420656,
+      "last_modification_date": 1619423100,
+      "uuid": "eaaa4e8f-c471-4c90-80af-cd232ecc9cdb",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 19027885,
+      "owner_id": 2001734,
+      "creation_date": 1618816007,
+      "last_modification_date": 1618818440,
+      "uuid": "7b7a2c6f-3784-461a-90cf-646db9d7147d",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 18928829,
+      "owner_id": 2001734,
+      "creation_date": 1618211068,
+      "last_modification_date": 1618213936,
+      "uuid": "34fa54f1-a604-44c5-a9e2-8e9258897319",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 18835126,
+      "owner_id": 2001734,
+      "creation_date": 1617606231,
+      "last_modification_date": 1617609156,
+      "uuid": "649d610c-c73b-4afd-b94b-49a52005ab64",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 18744308,
+      "owner_id": 2001734,
+      "creation_date": 1617001527,
+      "last_modification_date": 1617004254,
+      "uuid": "6911ecae-e115-49b5-856a-f0de58ee1b9f",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 18656117,
+      "owner_id": 2001734,
+      "creation_date": 1616396706,
+      "last_modification_date": 1616399575,
+      "uuid": "e206f0de-f202-4f71-967d-f916e0e666a0",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 18566361,
+      "owner_id": 2001734,
+      "creation_date": 1615791771,
+      "last_modification_date": 1615794673,
+      "uuid": "74765827-b9c8-4472-a7b6-a1fe0b380ae6",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 18472325,
+      "owner_id": 2001734,
+      "creation_date": 1615187076,
+      "last_modification_date": 1615189981,
+      "uuid": "778394f6-7758-46dd-8530-77a825a894f2",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 18378699,
+      "owner_id": 2001734,
+      "creation_date": 1614582260,
+      "last_modification_date": 1614585214,
+      "uuid": "a9ce82f0-7043-4d22-b729-85cd93349489",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 18287465,
+      "owner_id": 2001734,
+      "creation_date": 1613977397,
+      "last_modification_date": 1613980302,
+      "uuid": "8a222744-cb92-4841-8b94-767049fcca25",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 18195803,
+      "owner_id": 2001734,
+      "creation_date": 1613372645,
+      "last_modification_date": 1613375450,
+      "uuid": "3b3d9984-f5d4-4e37-9e28-995549bf0c78",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 18104606,
+      "owner_id": 2001734,
+      "creation_date": 1612767923,
+      "last_modification_date": 1612770795,
+      "uuid": "d83be32a-e293-4712-a2df-0c08facc8603",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 18013392,
+      "owner_id": 2001734,
+      "creation_date": 1612162995,
+      "last_modification_date": 1612165807,
+      "uuid": "9327a463-e042-4ce6-bd6b-44fc25b6cf0e",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 17924780,
+      "owner_id": 2001734,
+      "creation_date": 1611558256,
+      "last_modification_date": 1611560988,
+      "uuid": "e6af8682-a7cc-4b7a-a431-f13d92963558",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 17881694,
+      "owner_id": 2001734,
+      "creation_date": 1611252276,
+      "last_modification_date": 1611271133,
+      "uuid": "1f1aa027-8b7a-4f4b-8082-7aa61adef5d9",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 17345101,
+      "owner_id": 2001734,
+      "creation_date": 1607392824,
+      "last_modification_date": 1607411839,
+      "uuid": "14bcb2ba-2076-4c3d-a507-577c45e6c3e7",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 17288980,
+      "owner_id": 2001734,
+      "creation_date": 1607009786,
+      "last_modification_date": 1607028579,
+      "uuid": "bb1ad567-4efd-4ab2-bf2d-b739e9ffe79a",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 17141258,
+      "owner_id": 2001734,
+      "creation_date": 1605912806,
+      "last_modification_date": 1605937431,
+      "uuid": "4e2e2456-cbb4-4d19-8ec0-d314819261ed",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    },
+    {
+      "history_id": 17022713,
+      "owner_id": 2001734,
+      "creation_date": 1605070830,
+      "last_modification_date": 1605096791,
+      "uuid": "2f38cb2a-b553-455a-b6fc-6cdcea1f008e",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true
+    }
+  ],
+  "notes": [],
+  "remediations": {
+    "num_cves": 19,
+    "num_hosts": 34,
+    "num_remediated_cves": 0,
+    "num_impacted_hosts": 0,
+    "remediations": []
+  }
+}

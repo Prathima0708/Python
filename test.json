@@ -1,0 +1,51 @@
+{
+  "data": {
+    "events": {
+      "results": [
+        {
+          "id": "6347097f-3115-46fc-94b7-3ebb8d4eab47",
+          "name": "XSS Attack (100)",
+          "timestamp": 1643304594386,
+          "type": "Signature: Cross Site Scripting (XSS)",
+          "spanId": "a45e9e626588cb45",
+          "apiId": "264efd4e-77e9-336b-868f-411300b9e72c",
+          "apiName": "POST /dg/api/v1/importXml",
+          "apiUri": "http://nortridge-qa.apps.openshift.snapfinance.com/dg/api/v1/importXml/",
+          "category": "SECURITY",
+          "serviceId": "2db48945-a21f-3276-ab8a-a2beb4ad058c",
+          "serviceName": "qa-nortridge-bin",
+          "eventDescription": "Matched Data: XSS data found within ARGS:importXml: <?xml version=\"1.0\" encoding=\"UTF-8\"?><NLS>\n<CIF CIFNumber=\"2080458994\" City=\"Phoenix\" Country=\"US\" DateOfBirth=\"03/26/1962\" EmailAddress1=\"test@snapfinance.com\" Entity=\"INDIVIDUAL\" FirstName1=\"Lilyan\" LastName1=\"Hayes\" State=\"AZ\" StreetAddress1=\"4277  Hamill Avenue\" TaxIDNumber=\"901086018\" ZipCode=\"85001\">\n<CIFPHONENUMBER PhoneDescription=\"HomePhone\" PhoneNumber=\"(123) 456-7890\"/>\n<CIFPHONENUMBER PhoneDescription=\"MobilePhone\" PhoneNumber=\"(123) 456-7890\"",
+          "actorEntityId": "2dff2776-7c3d-3ead-8086-898897541a38",
+          "actorName": "52.38.36.23",
+          "actorIpAddress": "52.38.36.23",
+          "actorDevice": "Java 1.8.0_262",
+          "actorSession": "null",
+          "securityScoreCategory": "HIGH",
+          "securityEventCategory": "MALICIOUS",
+          "securityEventTypeId": "crs_941100",
+          "spanStartTimestamp": 1643304557089,
+          "actorCountry": "united states",
+          "actorState": "oregon",
+          "actorCity": "boardman",
+          "SERVICE": {
+            "id": "2db48945-a21f-3276-ab8a-a2beb4ad058c",
+            "name": "qa-nortridge-bin",
+            "__typename": "Entity"
+          },
+          "API": {
+            "id": "264efd4e-77e9-336b-868f-411300b9e72c",
+            "name": "POST /dg/api/v1/importXml",
+            "isAuthenticated": false,
+            "hasPii": false,
+            "changeLabel": "",
+            "changeLabelTimestamp": 0,
+            "__typename": "Entity"
+          },
+          "__typename": "Event"
+        }
+      ],
+      "total": 1,
+      "__typename": "EventResultSet"
+    }
+  }
+}

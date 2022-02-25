@@ -1,0 +1,22 @@
+{
+    "result":[
+        {
+            "name":"priya",
+            "age":22,
+            "marks":100,
+            "country":"India"
+        },
+        {
+            "name":"nikithua",
+            "age":22,
+            "marks":99,
+            "country":"Norway"
+        },
+        {
+            "name":"john",
+            "age":27,
+            "marks":99,
+            "country":"Russia"
+        }
+    ]
+}
