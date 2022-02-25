@@ -1,5 +1,6 @@
 from operator import index
 import sqlite3
+from tkinter import TRUE
 import pandas as pd
 from sqlalchemy import false
 
@@ -70,17 +71,28 @@ cur=db.cursor()
 # db.commit()
 # db.close()
 
+# cur.execute("insert into Orders values(101,4,12-3-2022)")
+# db.commit()
 
-cur.execute("select *from Customers")
-for x in cur.fetchall():
-    print(x)
-db.commit()
+# cur.execute("select *from Orders")
+# for x in cur.fetchall():
+#     print(x)
 # db.close()
 
 
 
-# data=pd.read_sql_query('select *from Customers',db)
-# print(data)
+
+
+data=pd.read_sql_query('select *from Customers',db)
+print(data)
+
+
+
+data=pd.read_sql_query('select *from Orders',db)
+print(data)
+
+data=pd.read_sql_query("select count(CID)as Count,City from Customers group by City",db)
+print(data)
 
 # new_row={'CID':8,'Cname':'yashu','Address':'surathkal','City':'Mangalore'}
 # data=data.append(new_row,ignore_index=True)
